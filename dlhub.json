@@ -1,0 +1,73 @@
+{
+  "dlhub": {
+    "version": "0.9.7",
+    "domains": [
+      "some",
+      "pertinent",
+      "fields"
+    ],
+    "visible_to": [
+      "public"
+    ],
+    "name": "AHub",
+    "files": {},
+    "dependencies": {},
+    "type": "servable"
+  },
+  "datacite": {
+    "identifier": {
+      "identifier": "10.datacite/placeholder",
+      "identifierType": "DOI"
+    },
+    "creators": [
+      {
+        "nameIdentifiers": [],
+        "affiliations": [
+          "JasonR"
+        ],
+        "familyName": "Jason",
+        "givenName": "R"
+      }
+    ],
+    "titles": [
+      {
+        "title": "A short title for the servable"
+      }
+    ],
+    "publisher": "DLHub",
+    "publicationYear": "",
+    "subjects": [],
+    "resourceType": {
+      "resourceTypeGeneral": "InteractiveResource"
+    },
+    "contributors": [],
+    "descriptions": [],
+    "alternateIdentifiers": [],
+    "relatedIdentifiers": [],
+    "rightsList": [],
+    "fundingReferences": []
+  },
+  "servable": {
+    "type": "Python static method",
+    "shim": "python.PythonStaticMethodServable",
+    "methods": {
+      "run": {
+        "input": {
+          "type": "string",
+          "description": "Your name"
+        },
+        "output": {
+          "type": "string",
+          "description": "A greeting: \"Hello <your name>!\""
+        },
+        "parameters": {},
+        "method_details": {
+          "method_name": "function",
+          "module": "module",
+          "autobatch": false
+        }
+      }
+    },
+    "options": {}
+  }
+}
